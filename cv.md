@@ -49,3 +49,8 @@ _Nothing yet..._
 - University: Kharkiv National University of Radio Electronics
 - [CSS and HTML](https://www.youtube.com/watch?v=BsQd9uOHjMM&list=PLM6XATa8CAG4uCli-pMvuvwj46UaQoqIc), [Git](https://www.youtube.com/watch?v=6i0Wg-Pohg8) video courses on YouTube
 - [JavaScript](https://uk.javascript.info/formdata?map)
+
+## __Language:__
+- English - Intermediate
+- Russian - Native
+- Ukrain - Upper-Intermediate
