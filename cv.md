@@ -14,3 +14,13 @@ The university shows different directions of the IT industry. For me, this was f
 I started studying on my own and was looking for courses that would suit me. I love to learn new things,
 I can sit for hours on end over the study, and then use my knowledge in development. 
 Now my goal is to finish learning the basics and get a job as a junior front-end developer.
+
+## __Skills__
+- HTML
+- CSS/SASS
+- JavaScript (Basic)
+- Java (Basic)
+- Git
+- npm
+- eslint
+- Editors: VSCode, Subline
