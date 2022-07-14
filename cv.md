@@ -44,3 +44,8 @@ function digital_root(n) {
 ## __Work experience:__
 
 _Nothing yet..._
+
+## __Education and courses__
+- University: Kharkiv National University of Radio Electronics
+- [CSS and HTML](https://www.youtube.com/watch?v=BsQd9uOHjMM&list=PLM6XATa8CAG4uCli-pMvuvwj46UaQoqIc), [Git](https://www.youtube.com/watch?v=6i0Wg-Pohg8) video courses on YouTube
+- [JavaScript](https://uk.javascript.info/formdata?map)
