@@ -24,3 +24,18 @@ Now my goal is to finish learning the basics and get a job as a junior front-end
 - npm
 - eslint
 - Editors: VSCode, Subline
+
+## __Code example:__
+__Sum of Digits / Digital Root KATA from CODEWARS:__ _Given n, take the sum of the digits of n. 
+If that value has more than one digit, continue reducing in this way until a single-digit number is produced. 
+The input will be a non-negative integer._
+```
+function digital_root(n) {
+  if (n > 9) {
+    let arrStr = String(n).split('').map(item => Number(item));
+    let result = arrStr.reduce((sum, current) => sum + current, 0);
+    return digital_root(result)
+  }else{
+    return n;
+  }
+}
