@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /*Обнуление*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,regular,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -73,3 +75,127 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+body {
+  font-family: "Poppins";
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.design {
+  background-color: #000;
+  color: #fff;
+}
+
+.design__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.design__body {
+  padding: 208px 0px 0px 0px;
+}
+
+.design__name-title {
+  margin: 0px 0px 147px 0px;
+}
+
+.design__fullname {
+  font-size: 166.67px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 208px;
+  margin: 0px 0px 60px 0px;
+}
+
+.design__fullname span {
+  font-size: 208.33px;
+  font-weight: medium;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 208px;
+}
+
+.design__profession {
+  background-color: #373c3e;
+  padding: 21px 35px 12px 37px;
+  display: inline-block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 66.6667px;
+  line-height: 58px;
+}
+
+.design__contacts {
+  max-width: 1044px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.design__photo {
+  max-width: 958px;
+  max-height: 1278px;
+}
+
+.design__photo img {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 2167px;
+  margin: 0 auto;
+}
+
+.design-contact {
+  max-width: 441px;
+  display: inline-block;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  margin: 0px 0px 45px 0px;
+}
+
+.design-contact__name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  margin: 0px 0px 8.83px 0px;
+}
+
+.design-contact__means-of-communication {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 41.6667px;
+  line-height: 58px;
+}

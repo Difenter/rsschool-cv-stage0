@@ -1,40 +1,111 @@
 @import "_nulestyle";
 @import "_fonts";
 
-body{
-	font-family: "Poppins";
+body {
+  font-family: "Poppins";
 }
+
+// .round{
+// 	margin: 0 auto;
+// 	position: relative;
+// 	width: 250px;
+// 	height: 250px;
+// 	overflow: hidden;
+// 	border-radius: 50%;
+// }
 
 .wrapper {
-	min-height: 100%;
-	overflow: hidden;
- 
-	display: flex;
+  min-height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
 }
 .content {
-	max-width: 2555px;
-	max-height: 1539px;
-	margin: 0 auto;
-	flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 .design {
-}
-.container {
-}
-.design-body {
-	max-width: 1861px;
+  //   background-color: rgb(66, 66, 66);
+  background-color: #000;
+  color: #fff;
+  &__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__body {
+    padding: 208px 0px 0px 0px;
+  }
+  &__name-title {
+    margin: 0px 0px 147px 0px;
+  }
+  &__fullname {
+    font-size: 166.67px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 208px;
+    span {
+      font-size: 208.33px;
+      font-weight: medium;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 208px;
+    }
+    margin: 0px 0px 60px 0px;
+  }
+  &__profession {
+    background-color: #373c3e;
+    // padding: 37px 21px 11px 12px;
+    padding: 21px 35px 12px 37px;
+    display: inline-block;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66.6667px;
+    line-height: 58px;
+  }
+  &__contacts {
+    max-width: 1044px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  &__photo {
+	max-width: 958px;
+	max-height: 1278px;
+    img {
+		max-width: 100%;
+		min-height: 100%;
+      // max-width: 951px;
+      // min-height: 1539px;
+		// border-radius: 50%;
+    }
+  }
 }
-.design-name-title {
-  &__fullname {}
-  &__profession {}
+
+.container {
+  max-width: 2167px;
+  margin: 0 auto;
 }
+
 .design-contact {
-  &__phone {}
-  &__num {}
-  &__mail {}
-  &__telegram {}
-  &__nick {}
-  &__github {}
-  &__gitlink {}
+  max-width: 441px;
+  display: inline-block;
+  flex: 0 1 50%;
+  margin: 0px 0px 45px 0px;
+  &__name {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    margin: 0px 0px 8.83px 0px;
+  }
+  &__means-of-communication {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 41.6667px;
+    line-height: 58px;
+  }
 }
