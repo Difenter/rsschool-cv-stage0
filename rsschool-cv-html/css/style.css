@@ -108,6 +108,20 @@ header {
   font-weight: bold;
 }
 
+.menu__item {
+  background-color: #373c3e;
+  border-radius: 75px;
+  padding: 15px 20px 15px 20px;
+}
+
+.menu__item:hover {
+  background-color: #fff;
+}
+
+.menu__item:hover .menu__link {
+  color: #373c3e;
+}
+
 .menu__link {
   color: #fff;
 }
@@ -285,7 +299,10 @@ header {
 }
 
 .about-you__code-implementation {
+  border: 3px solid;
+  padding: 15px 15px 0px 15px;
   font-size: 25px;
+  border-radius: 20px;
 }
 
 .title {
@@ -322,4 +339,39 @@ header {
   background-color: #000;
   display: inline-block;
   margin: 0px 10px 5px 0px;
+}
+
+/*=======================================================*/
+footer {
+  background-color: #000;
+}
+
+.footer-body {
+  padding: 50px 0px 50px 0px;
+}
+
+.footer-body__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-body__date {
+  padding: 22px 0px 22px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75px;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.footer-body__rsschool-logo {
+  padding: 22px 0px 0px 0px;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 180px;
 }

@@ -33,7 +33,7 @@
 									<p>Junior Frontend Developer</p>
 								</div>
 							</div>
-							<div class="design__contacts">
+							<div id="contacts" class="design__contacts">
 								<div class="design-contact">
 									<div class="design-contact__name">
 										<h3>Phone</h3>
@@ -69,7 +69,7 @@
 							</div>
 						</div>
 						<div class="design__photo">
-								<img  src="./assets/img/portrain_2.jpg" alt="my photo">
+								<img  src="./assets/img/photo/portrain_2.jpg" alt="my photo">
 								<!-- class="round" -->
 						</div>
 					</div>
@@ -80,7 +80,7 @@
 					<div class="about-you__row">
 						<div class="about-you__left">
 							<div class="about-you__column">
-								<div class="about-you__work-experience">
+								<div id="work-experience" class="about-you__work-experience">
 									<h2 class="about-you__work-experience-title title">
 										Work experience:
 									</h2>
@@ -100,7 +100,7 @@
 								</div>
 							</div>
 							<div class="about-you__column">
-								<div class="about-you__code">
+								<div id="code" class="about-you__code">
 									<h2 class="about-you__code-title title">
 										Code example:
 									</h2>
@@ -112,7 +112,7 @@
 function digital_root(n) {
 	if (n > 9) {
 	  let arrStr = String(n).split('').map(item => Number(item));
-	  let result = arrStr.reduce((sum, current) => sum + current, 0);
+	  let result = arrStr.reduce((sum, current) => sum + current,0);
 	  return digital_root(result)
 	}else{
 	  return n;
@@ -172,34 +172,27 @@ function digital_root(n) {
 								</div>
 							</div>
 						</div>
-						<!-- <div class="about-you__column">
-							<div class="about-you__me">
-								<h2 class="about-you__education-and-courser title">
-									Education and courses
-								</h2>
-								<div class="about-you__education-and-courser-link text" >
-									I am currently completing my 2nd year of university related to the profession of a programmer. The university shows different directions of the IT industry. For me, this was front-end development.
-
-									I started studying on my own and was looking for courses that would suit me. I love to learn new things, I can sit for hours on end over the study, and then use my knowledge in development. Now my goal is to finish learning the basics and get a job as a junior front-end developer.
-								</div>
-							</div>
-						</div>
-						<div class="about-you__column">
-							<div class="about-you__me">
-								<h2 class="about-you__education-and-courser title">
-									Education and courses
-								</h2>
-								<div class="about-you__education-and-courser-link text" >
-									I am currently completing my 2nd year of university related to the profession of a programmer. The university shows different directions of the IT industry. For me, this was front-end development.
-
-									I started studying on my own and was looking for courses that would suit me. I love to learn new things, I can sit for hours on end over the study, and then use my knowledge in development. Now my goal is to finish learning the basics and get a job as a junior front-end developer.
-								</div>
-							</div>
-						</div> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<footer>
+		<div class="footer-body">
+			<div class="container">
+				<div class="footer-body__row">
+					<div class="footer-body__date">
+						2022
+					</div>
+					<div class="footer-body__github-logo">
+						<a target="_blank" href="https://github.com/Difenter?tab=repositories"><img src="./assets/img/logo/GitHub-Mark-Light-120px-plus.png" alt="github-logo"></a>
+					</div>
+					<div class="footer-body__rsschool-logo">
+						<a target="_blank" href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0#%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F-2"><img src="./assets/img/logo/rs_school_js.svg" alt="rsschool-logo"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
