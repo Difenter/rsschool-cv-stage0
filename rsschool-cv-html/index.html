@@ -8,6 +8,17 @@
 	<title>Document</title>
 </head>
 <body>
+	<header>
+		<div class="header__menu">
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
+					<li class="menu__item"><a href="#work-experience" class="menu__link">Work experience</a></li>
+					<li class="menu__item"><a href="#code" class="menu__link">Code example</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 	<div class="wrapper">
 		<div class="content">
 			<div class="design">
@@ -58,9 +69,133 @@
 							</div>
 						</div>
 						<div class="design__photo">
-								<img  src="./assets/img/portrain_1.jpg" alt="my photo">
+								<img  src="./assets/img/portrain_2.jpg" alt="my photo">
 								<!-- class="round" -->
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="abou-you">
+				<div class="container">
+					<div class="about-you__row">
+						<div class="about-you__left">
+							<div class="about-you__column">
+								<div class="about-you__work-experience">
+									<h2 class="about-you__work-experience-title title">
+										Work experience:
+									</h2>
+									<div class="about-you__work-experience-text text" >
+										Nothing yet…	
+									</div>
+								</div>
+							</div>
+							<div class="about-you__column">
+								<div class="about-you__me">
+									<h2 class="about-you__me-title title">
+										About me
+									</h2>
+									<div class="about-you__me-text text" >
+										I started studying on my own and was looking for courses that would suit me. I love to learn new things, I can sit for hours on end over the study, and then use my knowledge in development. Now my goal is to finish learning the basics and get a job as a junior front-end developer.
+									</div>
+								</div>
+							</div>
+							<div class="about-you__column">
+								<div class="about-you__code">
+									<h2 class="about-you__code-title title">
+										Code example:
+									</h2>
+									<div class="about-you__code-condition text" >
+										<span>Sum of Digits / Digital Root KATA from CODEWARS:</span> Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
+									</div>
+									<div class="about-you__code-implementation">
+										<pre>
+function digital_root(n) {
+	if (n > 9) {
+	  let arrStr = String(n).split('').map(item => Number(item));
+	  let result = arrStr.reduce((sum, current) => sum + current, 0);
+	  return digital_root(result)
+	}else{
+	  return n;
+	}
+ }
+										</pre>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="about-you__right">
+							<div class="about-you__column">
+								<div class="about-you__slills">
+									<h2 class="about-you__skills-title title">
+										Skills
+									</h2>
+									<div class="about-you__know-list list text" >
+										<ul>
+											<li>English - Intermediate</li>
+											<li>Russian - Native</li>
+											<li>Ukrainian - Native</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="about-you__column">
+								<div class="about-you__languages">
+									<h2 class="about-you__languages-title title">
+										Language:
+									</h2>
+									<div class="about-you__learn-list list text" >
+										<ul>
+											<li>HTML</li>
+											<li>CSS/SASS</li>
+											<li>JavaScript (Basic)</li>
+											<li>Java (Basic)</li>
+											<li>Git</li>
+											<li>npm</li>
+											<li>eslint</li>
+											<li>Editors: VSCode, Subline</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="about-you__column">
+								<div class="about-you__education-and-courser">
+									<h2 class="about-you__education-and-courser-title title">
+										Education and courses
+									</h2>
+									<div class="about-you__link-list list text" >
+										<ul>
+											<li><a href="https://nure.ua/ru/" target="_blank" >University: Kharkiv National University of Radio Electronics</a></li>
+											<li><a href="https://www.youtube.com/watch?v=BsQd9uOHjMM&list=PLM6XATa8CAG4uCli-pMvuvwj46UaQoqIc" target="_blank" >CSS and HTML</a>, <a href="https://www.youtube.com/watch?v=6i0Wg-Pohg8" target="_blank" >Git</a> video courses on YouTube</li>
+											<li><a href="https://javascript.info/" target="_blank" >JavaScript</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="about-you__column">
+							<div class="about-you__me">
+								<h2 class="about-you__education-and-courser title">
+									Education and courses
+								</h2>
+								<div class="about-you__education-and-courser-link text" >
+									I am currently completing my 2nd year of university related to the profession of a programmer. The university shows different directions of the IT industry. For me, this was front-end development.
+
+									I started studying on my own and was looking for courses that would suit me. I love to learn new things, I can sit for hours on end over the study, and then use my knowledge in development. Now my goal is to finish learning the basics and get a job as a junior front-end developer.
+								</div>
+							</div>
+						</div>
+						<div class="about-you__column">
+							<div class="about-you__me">
+								<h2 class="about-you__education-and-courser title">
+									Education and courses
+								</h2>
+								<div class="about-you__education-and-courser-link text" >
+									I am currently completing my 2nd year of university related to the profession of a programmer. The university shows different directions of the IT industry. For me, this was front-end development.
+
+									I started studying on my own and was looking for courses that would suit me. I love to learn new things, I can sit for hours on end over the study, and then use my knowledge in development. Now my goal is to finish learning the basics and get a job as a junior front-end developer.
+								</div>
+							</div>
+						</div> -->
 					</div>
 				</div>
 			</div>

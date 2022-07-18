@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*Обнуление*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,regular,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,regular,italic,500,500italic,600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
 * {
   padding: 0;
@@ -79,6 +79,40 @@ body {
   font-family: "Poppins";
 }
 
+/*=======================================================*/
+header {
+  background-color: #000;
+}
+
+.header__menu {
+  max-width: 2167px;
+  margin: 0 auto;
+}
+
+.menu__body {
+  padding: 55px 490px;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.menu__link {
+  color: #fff;
+}
+
+/*=======================================================*/
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -100,6 +134,7 @@ body {
 .design {
   background-color: #000;
   color: #fff;
+  margin-bottom: 136px;
 }
 
 .design__row {
@@ -113,10 +148,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 70px;
 }
 
 .design__body {
-  padding: 208px 0px 0px 0px;
+  padding: 180px 0px 0px 0px;
 }
 
 .design__name-title {
@@ -167,6 +203,7 @@ body {
 .design__photo img {
   max-width: 100%;
   min-height: 100%;
+  border-radius: 9%;
 }
 
 .container {
@@ -198,4 +235,91 @@ body {
   font-weight: 300;
   font-size: 41.6667px;
   line-height: 58px;
+}
+
+/*=======================================================*/
+.about-you__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about-you__left {
+  max-width: 1024px;
+}
+
+.about-you__right {
+  max-width: 949px;
+}
+
+.about-you__column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 146px;
+}
+
+.about-you__work-experience-text {
+  font-style: italic !important;
+}
+
+.about-you__code-condition {
+  font-style: italic !important;
+  margin-bottom: 30px;
+}
+
+.about-you__code-condition span {
+  font-weight: bold;
+  color: #434242;
+  font-style: normal;
+}
+
+.about-you__code-implementation {
+  font-size: 25px;
+}
+
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 67px;
+  margin-bottom: 67.33px;
+}
+
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 41.6667px;
+  line-height: 67px;
+  color: #7d7d7d;
+}
+
+.list a {
+  color: #000;
+}
+
+.list a:hover {
+  color: #ba66d3;
+}
+
+.list li:before {
+  content: "";
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #000;
+  display: inline-block;
+  margin: 0px 10px 5px 0px;
 }
