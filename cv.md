@@ -53,4 +53,4 @@ _Nothing yet..._
 ## __Language:__
 - English - Intermediate
 - Russian - Native
-- Ukrain - Upper-Intermediate
+- Ukrainan - Native
