@@ -98,11 +98,6 @@ header {
   background-color: #000;
 }
 
-.header__menu {
-  max-width: 2167px;
-  margin: 0 auto;
-}
-
 .menu__body {
   padding: 55px 490px;
 }
