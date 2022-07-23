@@ -9,23 +9,25 @@
 	<title>CV-resume</title>
 </head>
 <body>
-	<header>
-		<div class="header__menu">
-			<div class="container">
-				<nav class="menu__body">
-					<ul class="menu__list">
-						<li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
-						<li class="menu__item"><a href="#work-experience" class="menu__link">Work experience</a></li>
-						<li class="menu__item"><a href="#code" class="menu__link">Code example</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</header>
 	<div class="wrapper">
-		
-		<div class="content">
-			<div class="design">
+		<header>
+			<div class="header__menu">
+				<div class="container">
+					<div class="menu__icon">
+						<span></span>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a data-goto=".design__contacts" href="#" class="menu__link">Contacts</a></li>
+							<li class="menu__item"><a data-goto=".about-you__work-experience" href="#" class="menu__link">Work experience</a></li>
+							<li class="menu__item"><a data-goto=".about-you__code" href="#" class="menu__link">Code example</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="content">
+			<section class="design">
 				<div class="container">
 					<div class="design__row">
 						<div class="design__body">
@@ -39,7 +41,8 @@
 									</div>
 								</div>
 							</div>
-							<div id="contacts" class="design__contacts">
+							<div class="design__contacts">
+								<!-- page__section_contacts -->
 								<div class="design-contact">
 									<div class="design-contact__name">
 										<h3>Phone</h3>
@@ -80,13 +83,14 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="abou-you">
+			</section>
+			<section class="abou-you">
 				<div class="container">
 					<div class="about-you__row">
 						<div class="about-you__left">
 							<div class="about-you__column">
-								<div id="work-experience" class="about-you__work-experience">
+								<div class="about-you__work-experience">
+									<!-- page__section_work-experience -->
 									<h2 class="about-you__work-experience-title title">
 										Work experience:
 									</h2>
@@ -106,7 +110,8 @@
 								</div>
 							</div>
 							<div class="about-you__column">
-								<div id="code" class="about-you__code">
+								<div class="about-you__code">
+									<!-- page__section_code -->
 									<h2 class="about-you__code-title title">
 										Code example:
 									</h2>
@@ -181,26 +186,26 @@ function digital_root(n) {
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-
-	</div>
-	<footer>
-		<div class="footer-body">
-			<div class="container">
-				<div class="footer-body__row">
-					<div class="footer-body__date">
-						2022
-					</div>
-					<div class="footer-body__github-logo">
-						<a target="_blank" href="https://github.com/Difenter?tab=repositories"><img src="./assets/img/logo/GitHub-Mark-Light-120px-plus.png" alt="github-logo"></a>
-					</div>
-					<div class="footer-body__rsschool-logo">
-						<a target="_blank" href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0#%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F-2"><img src="./assets/img/logo/rs_school_js.svg" alt="rsschool-logo"></a>
+			</section>
+		</main>
+		<footer>
+			<div class="footer-body">
+				<div class="container">
+					<div class="footer-body__row">
+						<div class="footer-body__date">
+							2022
+						</div>
+						<div class="footer-body__github-logo">
+							<a target="_blank" href="https://github.com/Difenter?tab=repositories"><img src="./assets/img/logo/GitHub-Mark-Light-120px-plus.png" alt="github-logo"></a>
+						</div>
+						<div class="footer-body__rsschool-logo">
+							<a target="_blank" href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0#%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F-2"><img src="./assets/img/logo/rs_school_js.svg" alt="rsschool-logo"></a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</footer>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
 </body>
 </html>
