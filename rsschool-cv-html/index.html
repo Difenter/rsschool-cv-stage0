@@ -9,20 +9,21 @@
 	<title>CV-resume</title>
 </head>
 <body>
-	<div class="wrapper">
-		<header>
-			<div class="header__menu">
-				<div class="container">
-					<nav class="menu__body">
-						<ul class="menu__list">
-							<li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
-							<li class="menu__item"><a href="#work-experience" class="menu__link">Work experience</a></li>
-							<li class="menu__item"><a href="#code" class="menu__link">Code example</a></li>
-						</ul>
-					</nav>
-				</div>
+	<header>
+		<div class="header__menu">
+			<div class="container">
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
+						<li class="menu__item"><a href="#work-experience" class="menu__link">Work experience</a></li>
+						<li class="menu__item"><a href="#code" class="menu__link">Code example</a></li>
+					</ul>
+				</nav>
 			</div>
-		</header>
+		</div>
+	</header>
+	<div class="wrapper">
+		
 		<div class="content">
 			<div class="design">
 				<div class="container">
@@ -33,7 +34,9 @@
 									<h1>Afonkin <span>Denis</span></h1>
 								</div>
 								<div class="design__profession">
-									<p>Junior Frontend Developer</p>
+									<div class="design__profession-name">
+										<p>Junior Frontend Developer</p>
+									</div>
 								</div>
 							</div>
 							<div id="contacts" class="design__contacts">
@@ -111,7 +114,8 @@
 										<span>Sum of Digits / Digital Root KATA from CODEWARS:</span> Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
 									</div>
 									<div class="about-you__code-implementation">
-										<pre>
+										<img src="./assets/img/photo/code-4.png" alt="code">
+										<!-- <pre>
 function digital_root(n) {
 	if (n > 9) {
 	  let arrStr = String(n).split('').map(item => Number(item));
@@ -121,7 +125,7 @@ function digital_root(n) {
 	  return n;
 	}
  }
-										</pre>
+										</pre> -->
 									</div>
 								</div>
 							</div>
@@ -179,23 +183,24 @@ function digital_root(n) {
 				</div>
 			</div>
 		</div>
-		<footer>
-			<div class="footer-body">
-				<div class="container">
-					<div class="footer-body__row">
-						<div class="footer-body__date">
-							2022
-						</div>
-						<div class="footer-body__github-logo">
-							<a target="_blank" href="https://github.com/Difenter?tab=repositories"><img src="./assets/img/logo/GitHub-Mark-Light-120px-plus.png" alt="github-logo"></a>
-						</div>
-						<div class="footer-body__rsschool-logo">
-							<a target="_blank" href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0#%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F-2"><img src="./assets/img/logo/rs_school_js.svg" alt="rsschool-logo"></a>
-						</div>
+
+	</div>
+	<footer>
+		<div class="footer-body">
+			<div class="container">
+				<div class="footer-body__row">
+					<div class="footer-body__date">
+						2022
+					</div>
+					<div class="footer-body__github-logo">
+						<a target="_blank" href="https://github.com/Difenter?tab=repositories"><img src="./assets/img/logo/GitHub-Mark-Light-120px-plus.png" alt="github-logo"></a>
+					</div>
+					<div class="footer-body__rsschool-logo">
+						<a target="_blank" href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0#%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F-2"><img src="./assets/img/logo/rs_school_js.svg" alt="rsschool-logo"></a>
 					</div>
 				</div>
 			</div>
-		</footer>
-	</div>
+		</div>
+	</footer>
 </body>
 </html>
